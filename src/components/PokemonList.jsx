@@ -8,6 +8,9 @@ export default function PokemonList ({ pokemons }) {
           key={pokemon.name}
           name={pokemon.name}
           avatar={pokemon.sprites.front_default}
+          types={pokemon.types}
+          id={pokemon.id}
+          favorite={pokemon.favorite}
         />
       ))}
     </div>
